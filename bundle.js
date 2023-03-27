@@ -12298,7 +12298,7 @@ var app = (function () {
   }
   return (async function () {
     const e = document.getElementById("app"),
-      t = (e.getAttribute("data-root") || "") + "/insomnia.json";
+      t = "./insomnia.json";
     window.INSOMNIA_URL = t;
     try {
       const n = await fetch(t, {
